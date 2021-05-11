@@ -1,4 +1,5 @@
-# react-semantic-breadcrumbs v2 [![Travis build status](https://travis-ci.org/rahulpv/react-semantic-breadcrumbs-v2.svg?branch=master)](https://travis-ci.org/rahulpv/react-semantic-breadcrumbs-v2/)
+# react-semantic-breadcrumbs v2 [![npm](https://img.shields.io/badge/version-1.0.4-blue.svg)](https://github.com/rahulpv/react-semantic-breadcrumbs-v2)
+
 Forked from bradestey/react-semantic-breadcrumbs for react 16+
 
 ### React below 16
