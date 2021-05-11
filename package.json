@@ -1,6 +1,6 @@
 {
   "name": "react-semantic-breadcrumbs-v2",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "repository": "rahulpv33/react-semantic-breadcrumbs-v2",
   "author": "Rahul PV",
   "license": "MIT",
@@ -42,7 +42,7 @@
     "in-publish": "^2.0.0",
     "jest-cli": "^16.0.0",
     "pretty-bytes": "^3.0.1",
-    "react": "^16.0.0",
+    "react": ">=16.0.0",
     "react-dom": "^16.0.0",
     "react-test-renderer": "^16.0.0",
     "readline-sync": "^1.4.4",
