@@ -1,6 +1,6 @@
 {
   "name": "react-semantic-breadcrumbs-v2",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "repository": "rahulpv33/react-semantic-breadcrumbs-v2",
   "author": "Rahul PV",
   "license": "MIT",
@@ -23,7 +23,7 @@
     "test": "jest"
   },
   "peerDependencies": {
-    "react": "16.x"
+    "react": ">=16.x"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
