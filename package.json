@@ -1,0 +1,71 @@
+{
+  "name": "react-semantic-breadcrumbs-v2",
+  "version": "1.0.2",
+  "repository": "rahulpv33/react-semantic-breadcrumbs-v2",
+  "author": "Rahul PV",
+  "license": "MIT",
+  "main": "lib",
+  "files": [
+    "*.js",
+    "*.md",
+    "umd"
+  ],
+  "scripts": {
+    "generate-readme": "scripty",
+    "release": "scripty",
+    "build": "node ./scripts/build.js",
+    "build-lib": "rimraf lib && babel ./modules -d . --ignore '__tests__'",
+    "build-umd": "webpack modules/index.js umd/react-semantic-breadcrumbs.js",
+    "build-min": "webpack -p modules/index.js umd/react-semantic-breadcrumbs.min.js",
+    "prepublish": "node ./scripts/build.js",
+    "clean": "rm $(ls modules | grep -v __)",
+    "lint": "eslint modules",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": "15.x"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.0.0",
+    "babel-eslint": "^6.1.2",
+    "babel-jest": "^15.0.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "enzyme": "^3.11.0",
+    "eslint": "^3.2.2",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-react": "^6.0.0",
+    "gzip-size": "^3.0.0",
+    "in-publish": "^2.0.0",
+    "jest-cli": "^15.1.1",
+    "pretty-bytes": "^3.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-test-renderer": "^17.0.2",
+    "readline-sync": "^1.4.4",
+    "rimraf": "^2.5.4",
+    "scripty": "^1.7.1",
+    "webpack": "^1.13.1"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-0",
+      "react"
+    ]
+  },
+  "description": "A React component for rendering semantic breadcrumb lists.",
+  "keywords": [
+    "react",
+    "breadcrumbs",
+    "semantic",
+    "rdfa",
+    "json-ld",
+    "schema.org",
+    "microdata",
+    "microformats"
+  ]
+}
