@@ -1,6 +1,6 @@
 {
   "name": "react-semantic-breadcrumbs-v2",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "repository": "rahulpv33/react-semantic-breadcrumbs-v2",
   "author": "Rahul PV",
   "license": "MIT",
@@ -23,7 +23,7 @@
     "test": "jest"
   },
   "peerDependencies": {
-    "react": "15.x"
+    "react": "16.x"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
@@ -40,7 +40,7 @@
     "eslint-plugin-react": "^6.0.0",
     "gzip-size": "^3.0.0",
     "in-publish": "^2.0.0",
-    "jest-cli": "^15.1.1",
+    "jest-cli": "^16.0.0",
     "pretty-bytes": "^3.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
