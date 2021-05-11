@@ -9,7 +9,7 @@ Check out [react-semantic-breadcrumbs](https://github.com/bradestey/react-semant
 ## Installation
 
 ```jsx
-npm i react-semantic-breadcrumbs --save
+npm i react-semantic-breadcrumbs-v2 --save
 ```
 ```jsx
 import { BreadcrumbList, ListItem } from 'react-semantic-breadcrumbs'
